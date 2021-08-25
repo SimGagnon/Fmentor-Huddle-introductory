@@ -17,6 +17,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 2.3875rem 2.5rem 2.5rem 2.5rem;
+    max-width: 79.6875rem;
+    margin: auto;
 }
 
 a,a:visited,a:active {
@@ -53,12 +55,14 @@ h1, button {
     font-size: 1.5rem;
     line-height: 2.25rem;
     margin-bottom: 1rem;
+    max-width: 30.4375rem;
 }
 
 .hero__text p {
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 1.5rem;
+    max-width: 32.5rem;
 }
 
 .hero__text button {
@@ -66,6 +70,12 @@ h1, button {
     border-radius: 1.25rem;
     border: none;
     color: hsl(257, 40%, 49%);
+    cursor: pointer;
+}
+
+.hero__text button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
 }
 
 .footer__socials {
@@ -78,6 +88,45 @@ h1, button {
     cursor: pointer;
 }
 
+.footer__socials ion-icon:hover {
+    color: hsl(300, 69%, 71%);
+}
+
 .footer__socials ion-icon:not(:last-child) {
     margin-right: 0.625rem;
+}
+
+
+@media screen and (min-width: 60em) {
+
+    body {
+        background-image: url(../images/bg-desktop.svg);
+        background-color: hsl(257, 40%, 49%);
+        padding: 4rem 0rem 2.5rem 5rem;
+    }
+
+    .hero {
+        display: flex;
+    }
+
+    .hero__image img{
+        max-width: 43.5rem;
+        margin-right: 3.6875rem;
+    }
+
+    .hero__text {
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .hero__text h1 {
+        font-size: 2.5rem;
+        line-height: 3.75rem;
+    }
+
+    .hero__text p {
+        font-size: 1.125rem;
+        line-height: 1.6875rem;
+    }
+
 }
