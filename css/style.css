@@ -98,7 +98,7 @@ h1, button {
     color: hsl(300, 69%, 71%);
 }
 
-.footer__socials ion-icon:not(:last-child) {
+.footer__socials a:not(:last-child) {
     margin-right: 0.625rem;
 }
 
