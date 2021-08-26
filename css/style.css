@@ -115,6 +115,10 @@ h1, button {
         justify-content: space-between;
     }
 
+    .hero__image {
+        margin-right: 3.6875rem;
+    }
+
     .hero__text {
         text-align: left;
         margin-bottom: 0;
@@ -124,6 +128,8 @@ h1, button {
     .hero__text h1 {
         font-size: 2.5rem;
         line-height: 3.75rem;
+        margin: 0;
+        margin-bottom: 1.5rem;
     }
 
     .hero__text p {
@@ -148,5 +154,4 @@ h1, button {
     .footer__socials ion-icon:not(:last-child) {
         margin-right: 1rem;
     }
-
 }
