@@ -160,7 +160,7 @@ h1, button {
 @media screen and (min-width: 75em) {
 
     body {
-        padding: 4rem 0 2.5rem 0;
+        padding: 4rem 0rem 2.5rem 0rem;
     }
 
     .hero__text h1 {
