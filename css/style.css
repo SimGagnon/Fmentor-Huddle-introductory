@@ -107,6 +107,7 @@ h1, button {
     body {
         background-image: url(../images/bg-desktop.svg);
         background-color: hsl(257, 40%, 49%);
+        background-size: cover;
         padding: 4rem 2.5rem 2.5rem 2.5rem;
     }
 
