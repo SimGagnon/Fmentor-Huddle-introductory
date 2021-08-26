@@ -46,6 +46,7 @@ h1, button {
 }
 
 .hero__image img{
+    display: block;
     width: 100%;
     max-width: 43.5rem;
 }
