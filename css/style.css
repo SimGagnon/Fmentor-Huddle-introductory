@@ -119,6 +119,8 @@ h1, button {
 
     .hero__image {
         margin-right: 3.6875rem;
+        margin: 0 3.6875rem 1.6875rem 0rem;
+        max-width: 43.5rem;
     }
 
     .hero__text {
